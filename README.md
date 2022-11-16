@@ -69,4 +69,6 @@ git restore
 # Move or name a file, a directory
 git mv
 
+# Create, list, delete or verify a tag object
+git tag
 ```
