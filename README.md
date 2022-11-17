@@ -71,4 +71,20 @@ git mv
 
 # Create, list, delete or verify a tag object
 git tag
+
+# To retrieve changes
+git stash
+
+# Undo Merge
+git checkout branch-name
+git log --oneline
+git revert -m commit-id
+
+# Rename a branch normally and remote
+git checkout old-branch
+git branch -m new name
+git push origin :old-name new name
+
+# Move existing,uncommited work to a new branch
+git switch -c <new-branch> 
 ```
