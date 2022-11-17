@@ -87,4 +87,13 @@ git push origin :old-name new name
 
 # Move existing,uncommited work to a new branch
 git switch -c <new-branch> 
+
+# Show changes not yet staged
+git diff
+
+# Change last commit
+git commit --amend
+
+# Switch to branch and a update working directory
+git checkout <branch> 
 ```
